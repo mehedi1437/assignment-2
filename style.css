@@ -461,4 +461,65 @@ footer{
         height: 150px;
         font-size: 30px;
      }
+     /* Some Fact Section style */
+
+     .some-fact{
+        height: 600px;
+        width: 100%;
+        position: relative;
+    }
+    .some-fact-description{
+        position: absolute;
+        top: 0;
+     }
+     .some-fact-description p{
+        
+     }
+     .some-fact-boxes{
+       position: absolute;
+       left: 0;
+       bottom: 0;
+       justify-items: flex-start;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        
+     }
+     .some-fact-box:hover{
+        height: 200px;
+        width: 200px;
+        background-color: antiquewhite;
+    }
+    /* About us section style */
+    .about-us{
+        height: 140px;
+    width: 80vw;
+    display: flex;
+    margin-left: 70px;
+      
+    }
+    /* Our sponser section style */
+    .our-sponser{
+    width: 80%;
+    display: flex;
+    margin-left: 70px;
+
+    }
+    .sponser-icons{
+        height: 350px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sponser-icon{
+        flex-direction: column;
+        gap: 2em;
+    } 
+    footer{
+        display: flex;
+    }
+    .footer-paragraph{ 
+        text-align: center;
+    }
+   
+
 }
