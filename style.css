@@ -349,7 +349,7 @@ footer{
 
 
 
-/* Responsive start from here */
+/* Mobile Responsive start from here */
 
 @media screen and (max-width:576px) {
 
@@ -360,7 +360,10 @@ footer{
        padding: 0;
        overflow-x: hidden;
     }
-    .header-section{
+
+   /* This is header style */ 
+    
+   .header-section{
         position: relative;
     }
     .navbar{
@@ -395,8 +398,67 @@ footer{
         margin-bottom: 1em;
     }
 
+    /* Header image section style */
+
     .img-section img{
         height: 40vh;
         width: 80vw;
+     }
+
+     /* Feature section stye  */
+
+     .feature-section{
+        height: 1450px;
+        flex-direction: column;
+        position: relative;
+     }
+     .feature-image-section{
+        grid-template-columns: 1fr;
+     }
+     .feature-description{
+        position: absolute;
+        bottom: 20px;
+        left: 20%;
+     }
+     .feature-image-section img{
+        margin-top: 20px;
+        height: 250px;
+        width: 250px;
+     }
+
+     /* Love and enjoy section  */
+
+     .love-and-enjoy{
+        height:1500px;
+        position: relative;
+     }
+     .love-and-enjoy-description{
+        width: 100%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+     }
+     .description-box{
+        width: 80%;
+     }
+     .love-and-enjoy-image{
+        position: absolute;
+        left: 25%;
+        margin-top: 30px;
+     }
+     .love-and-enjoy-image img{
+        height: 400px;
+        width: 100%;
+     }
+     .description-box{
+        height: 150px;
+     }
+     .exprience-btn{
+        position: absolute;
+        left: 10%;
+        bottom: 50px;
+        width: 200px;
+        height: 150px;
+        font-size: 30px;
      }
 }
