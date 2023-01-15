@@ -1,0 +1,402 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* This is header style */
+
+.header-section{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(255, 144, 14, 0.1);
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+}
+.navbar ul {
+  display: flex;
+ 
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: 2em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Header description and button section style */
+.header-description{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+}
+.header-description h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.header-description p{
+    position: relative;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #727272;
+    padding: 1em 0;
+}
+.primary-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF900E  ;
+    border: 0;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Header image section style */
+
+.img-section{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 1em;
+}
+.img-section img{
+   width:100vh;
+}
+
+/*here is from feature-section style  */
+
+.feature-section{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  
+  align-items: center;
+  position: relative;
+  
+}
+.feature-image-section{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 1em;
+   position: absolute;
+   left: 20%;
+}
+.feature-image-section img{
+    align-content: flex-end;
+    height: 250px;
+    width: 250px;
+   
+}
+.feature-description{
+  text-align: left;
+  position: absolute;
+  left: 60%;
+}
+.feature-description h1{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+}
+.grey-text{
+    color: #727272;
+}
+.orange-text{
+    color:#FF900E  ;
+}
+.feature-description p{
+    text-align:left;
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 0;
+}
+.secondery-btn{
+    background-color: #FF900E  ;
+    border: 0;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Love and enjoy section  */
+
+.love-and-enjoy{
+    height: 870px;
+    width: 100%;
+    display: flex;
+    margin-top: 3em;
+    position: relative;
+}
+
+.love-and-enjoy-description{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   left: 10%;
+   top: 10%;
+
+    
+}
+.love-and-enjoy-description h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left:  20px;
+}
+.love-and-enjoy-description-p{
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 24px;
+    text-align: left;
+   
+}
+
+.description-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px 0;
+    height: 130px;
+    padding: 20px 30px;
+    margin-top: 10px;
+
+}
+.description-box h3{
+    font-size: 20px;
+   }
+.description-box p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 10px 0;
+}
+
+
+.love-and-enjoy-image{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 52%;
+}
+.love-and-enjoy-image img{
+    height: 90%;
+    width: 80%;
+}
+
+.exprience-btn{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    font-size: 65px;
+    position: absolute;
+    bottom: 0px;
+    left: 51%;
+    z-index: 3;
+}
+.exprience-btn small{
+    font-size: 25px;
+}
+
+/* Some Fact Section style */
+
+.some-fact{
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+.some-fact-description{
+   position: absolute;
+   top: 20%;
+   left: 10%;
+}
+.some-fact-description p{
+    font-size: 14px;
+    color: #727272;
+    padding-top: 20px;
+}
+
+.some-fact-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    padding: 15%;
+
+}
+.some-fact-box{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ;
+}
+.some-fact-box:hover{
+    height: 230px;
+    width: 230px;
+    background-color: antiquewhite;
+}
+
+/* About us section style */
+
+.about-us{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FF900E;
+  
+}
+.about-us p{
+    font-size: 14px;
+    color: #727272;
+    padding: 20px 0;
+}
+
+/* Our sponser section style */
+
+.our-sponser{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.our-sponser p{
+    font-size: 14px;
+    color: #727272;
+    padding: 20px 0;
+}
+.sponser-icons{
+    height: 100px;
+   max-width: 1140px;
+   margin: 0 auto;
+   
+
+}
+.sponser-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Footer style  */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.footer-paragraph{
+    height: 80px;
+    width: 80vw;
+    background: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* From here desktop  design is finished */
+
+
+
+
+
+/* Responsive start from here */
+
+@media screen and (max-width:576px) {
+
+    html,body{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+    }
+    .header-section{
+        position: relative;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1em;
+    
+    }
+    .logo{
+        font-size: 30px;
+        font-weight: 700;
+    }
+     .navbar ul {
+       margin-top: 1em;
+      }
+
+    .header-description h1{
+        font-size: 40px;
+    }
+
+    .header-description p{
+        font-size: 15px;
+    }
+    .primary-btn{
+        width: 120px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-bottom: 1em;
+    }
+
+    .img-section img{
+        height: 40vh;
+        width: 80vw;
+     }
+}
